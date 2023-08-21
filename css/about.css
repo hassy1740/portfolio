@@ -1,5 +1,45 @@
 main{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 0%;
     margin: 0%;
+    padding-top: 80px;
 }
+#container{
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.content_container{
+    display: flex;
+}
+.content_container div, .photo_container{
+    width: 50%;
+    /* background-color: blue; */
+}
+.photo_container{
+    text-align: center;
+    margin-top: 25px;
+}
+.photo_container img{
+    width: 70%;
+    object-fit: cover;
+}
+#container h2{
+    border-bottom: 1px solid black;
+    display: inline;
+    padding: 3px 10px;
+}
+#container section{
+    margin-top: 80px;
+}
+
+section iframe{
+    margin-top: 30px;
+}
+
+
+
