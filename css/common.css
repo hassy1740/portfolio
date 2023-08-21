@@ -1,3 +1,9 @@
+* {
+  font-family: "lemonde-journal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -71,14 +77,16 @@ footer {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
+
 /*header */
-.header-items{
+.header-items {
   /* background-color: aqua;*/
-   display: flex;
+  display: flex;
 }
-.header-items h1{
- margin-left: 10%;
- font-size: 28px;
+
+.header-items h1 {
+  margin-left: 10%;
+  font-size: 28px;
 }
 
 /*ナビゲーション*/
