@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   background-image: url("../images/photo-output.JPG");
-  background-size: 100%;
-  background-color: rebeccapurple;
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
@@ -13,28 +12,12 @@ body{
 }
 
 header{
-   /*background-color: blue;*/
+   /* background-color: blue; */
     padding: 0;
     margin:0;
-    display:flex;
-    width: 100vw;
+    width: 100%;
     height: 10vh;
+    color: white;
 }
-.header-items{
-    padding:0;
-    margin:0;
-   /* background-color: aqua;*/
-    display: flex;
-    white-space: nowrap;
-    justify-content: space-between;
-    text-align: center;
-}
-p{
-    padding:0;
-    margin: 0%;
-    display: flex;
-    margin-left: 1vw;
-    white-space: nowrap;
-    margin-top: 20px;
 
-}
+
