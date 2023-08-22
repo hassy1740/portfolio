@@ -30,7 +30,8 @@ main{
 }
 #container h2{
     border-bottom: 1px solid black;
-    display: inline;
+    /* display: inline; */
+    width: 25%;
     padding: 3px 10px;
 }
 #container section{
